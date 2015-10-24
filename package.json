@@ -1,0 +1,25 @@
+{
+  "name": "liwi-mongo",
+  "version": "1.0.0",
+  "description": "mongo implementation of liwi",
+  "main": "lib/MongoStore.js",
+  "scripts": {
+    "test": "make tests",
+    "lint": "make lint",
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "prepublish": "make pre-publish",
+    "preversion": "make pre-version",
+    "version": "make version",
+    "watch": "make watch"
+  },
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "repository": "liwijs/liwi-mongo",
+  "license": "ISC",
+  "devDependencies": {
+    "springbokjs-library": "^11.3.0"
+  },
+  "dependencies": {
+    "mongo": "^0.1.0"
+  }
+}
